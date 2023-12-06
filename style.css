@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Whisper&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(113deg, rgba(2,0,36,1) 19%, rgba(132,132,187,0.768032212885154) 60%, rgba(0,212,255,1) 100%);
+    font-family: "Whisper", "poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 4rem;
+    margin: -150px 0 40px;
+}
+
+.countdown{
+    display: flex;
+    transform: scale(2);
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.time h2{
+    font-family: "poppins", sans-serif;
+    line-height: 1;
+    margin: 0 0 5px;
+}
+
+p{
+    font-family: "poppins", sans-serif;
+}
+
+@media(max-width: 500px){
+    h1{
+        font-size: 45px;
+    }
+
+    .time{
+        margin: 5px;
+
+    }
+
+    .time h2{
+        font-size: 12px;
+    }
+    .time p{
+        font-size: 10px;
+    }
+}
